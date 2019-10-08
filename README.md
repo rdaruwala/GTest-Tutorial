@@ -16,6 +16,11 @@ Next, install the required dependencies:
 
 ```
 sudo apt-get install git cmake libgtest-dev
+cd /usr/src/gtest
+sudo cmake CMakeLists.txt
+sudo make
+
+sudo cp *.a /usr/lib
 ```
 
 
